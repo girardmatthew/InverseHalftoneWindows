@@ -4,7 +4,7 @@ So far, I assume you have configured the targetd environment.
 1. copy the Folder "Train_mode" to any directory on your PC or server;
 2. put your training dataset into the Folder "input/train": "raw" is for the halftone image and "target" is for the ground-truth grayscale. (the paired halftone-grayscale must have the same filename, see the included examples);
 3. put your validation datset into the Folder "input/val": "raw" is for the halftone image and "target" is for the ground-truth grayscale. (the paired halftone-grayscale must have the same filename, see the included examples);
-4. run it by typing "python3 main.py" in your terminal interface.
+4. run it from Anaconda or by typing "python3 main.py" from within the directory in a shell interface.
 
 Other remarks:
 1) All the image size should be 256x256. If you really want to change it, please update IMG_WIDTH/IMG_HEIGH in the file named "model" at line7-8.;
@@ -16,7 +16,7 @@ Other remarks:
 1. copy the Folder "Test_mode" to any directory on your PC or server;
 2. put your testing dataset into the Folder "input": "raw" is for the halftone image and "target" is for the ground-truth grayscale. (the paired halftone-grayscale must have the same filename, see the included examples);
 3. put the pre-trained model into Folder "model" (I have done this for you and you can also replace it with your newly trained model)
-4. run it by typing "python3 main.py" in your terminal interface.
+4. run it from Anaconda or by typing "python3 main.py" from within the directory in a shell interface.
 
 Other remarks:
 1) All the image size should be 256x256. If you really want to change it, please update IMG_WIDTH/IMG_HEIGH in the file named "model" at line7-8.;
