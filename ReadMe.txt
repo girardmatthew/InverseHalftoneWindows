@@ -1,4 +1,4 @@
-So far, I assume you have configured the targetd Linux-TensorFlow environment.
+So far, I assume you have configured the targetd environment.
 
 # How to train a model on your own dataset?
 1. copy the Folder "Train_mode" to any directory on your PC or server;
